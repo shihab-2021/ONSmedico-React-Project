@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+.showcase {
+    background-color: darkcyan;
+}
+.teamImg {
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 10px;
+}
+.team {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}

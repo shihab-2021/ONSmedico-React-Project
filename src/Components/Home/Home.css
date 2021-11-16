@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Lobster+Two:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+.logo {
+    font-family: 'Lobster Two', cursive !important;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+#showcase {
+    min-height: 300px;
+    background: url(https://image.freepik.com/free-photo/authentication-standing-physician-stylish-icons_1134-904.jpg) center center / cover;
+    color: #ffffff;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+#showcase::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+
+.carouselImg {
+    max-height: 300px;
+}
+.carousel {
+    max-height: 300px;
+}
+.slogan {
+    font-family: 'Anton', sans-serif;
+}
+.teamImg {
+    box-shadow: 4px 4px 7px gray;
+    border-radius: 10px;
+}
+.team {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.doctorImg {
+    height: 15rem;
+    width: 15rem;
+}
